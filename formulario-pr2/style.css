@@ -4,6 +4,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+p {
+    text-indent: 20px;
+    text-align: justify;
+}
 #termos_aceitacao {
     background-color: rgba(255, 255, 48, 0.486);
     padding: 10px;
@@ -17,4 +21,22 @@
 
 header {
     background-color: green;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+header > h1 {
+    text-align: center;
+    margin-top: 0;
+}
+header > div {
+    text-align: center;
+    border: 2px solid black;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;    
+}
+
+footer{
+    
 }
